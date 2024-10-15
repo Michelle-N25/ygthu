@@ -1,0 +1,295 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    color: black;
+}
+.header{
+    background-color: rgb(111, 189, 215);
+}
+.logo{
+    display: flex;
+    align-items: center; 
+}
+.logo img{
+    height: 50px;
+    margin-right: 200px;
+    border-radius: 100%;
+}
+.logo h1{
+    font-size: xx-large;
+    padding-bottom: 5px;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    height: 70px;
+    align-items: center;
+    padding-top: 5px;
+}
+nav a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: darkslateblue;
+    text-decoration:underline;
+} 
+.banner{
+    width: 150%;
+    height: auto;
+    border-radius: 50%;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.welcome{
+    text-align: center;
+    background-color: rgb(111, 189, 215);
+    width: 50%;
+    margin: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 30px;
+    padding: 30px;
+}
+.initiatives{
+   padding: 20px;
+   text-align: center;
+}
+.initiatives h2{
+    background-color: rgb(111, 189, 215);
+}
+.initiatives-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.initiatives-img, .initiatives-text{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    
+}
+.initiatives-text{
+    width: 60%;
+    
+}
+.initiatives-text ul p{
+    text-align: left;
+}
+.importance-practices{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    margin-top: 5px;
+}
+.importance, .practices{
+    width: 45%;
+    
+}
+.importance h2{
+    text-align: center;
+    background-color: rgb(111, 189, 215);
+}
+.importance ul{
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+}
+.practices{
+    padding-right: 0%;
+}
+.practices h2{
+    text-align: center;
+    background-color: rgb(111, 189, 215);
+}
+.practices ul{
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+}
+.resources{
+    margin-top: 0px;
+}
+.resources h2{
+    background-color: rgb(111, 189, 215);
+}
+.resources h2, p{
+    text-align: center;
+}
+.resources ul li{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 28.5%;
+    width: 50%;
+}
+.bg-info, .vision-mission, .objectives, .services{
+    padding: 20px;
+    text-align: center;
+}
+.vision-mission-objectives{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.vision-mission, .objectives{
+    width: 45%;
+}
+.vision{
+    background-color: rgb(111, 189, 215);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 5px;
+}
+.vision p{
+    
+    text-align: center;
+}
+.mission{
+    margin-top: 50px;
+    background-color: rgb(111, 189, 215);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 5px;
+    
+}
+.objectives{
+    background-color: rgb(111, 189, 215);
+    border-radius: 30px;
+}
+.objectives ul{
+    list-style-type:circle;
+    padding-left: 20px;
+    text-align: left;
+}
+.services{
+    text-align: center;
+   margin-bottom: 20px;
+}
+.services-left, .services-right{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.services-left img, .services-right img{
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+.team{
+    text-align: center;
+}
+.partners{
+    text-align: center;
+}
+.getintouch{
+    text-align: center;
+}
+.contact-info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.contact-info h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-info form{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+    width: 350px;
+    background-color: rgb(111, 189, 215);
+}
+.contact-info h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-info label{
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-info input, .contact-info textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.contact-info button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(13, 150, 196);
+}
+.contact-info button:hover{
+    background-color: rgb(0, 116, 154);
+}
+.faq h2, p{
+    text-align: center;
+}
+.faq ul li{
+    padding-left: 10%;
+    list-style-type: none;
+}
+.socials{
+    text-align: center;
+    margin: 20px 0;
+}
+.socials h2{
+   margin-bottom: 10px;
+}
+.socials ul{
+    list-style-type:none;
+    padding: 0;
+}
+.socials ul li{
+    margin: 0 10px;
+    display: inline;
+}
+.socials ul li a{
+    text-decoration:none;
+    color: black;
+}
+.socials ul li a:hover{
+    text-decoration: underline;
+}
+.contact-us{
+    text-align: center;
+    margin: 20px 0;
+}
+.contact-us p{
+    margin: 5px 0;
+}
+.contact-us a{
+    text-decoration: none;
+    color: black;
+}
+.contact-us a:hover{
+    text-decoration: underline;
+}
+.location{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+   /*position:fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(111, 189, 215);
+}
+
